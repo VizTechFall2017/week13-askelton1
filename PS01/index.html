@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapping U.S. Marijuana Laws</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="./d3.v4.2.6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+</head>
+
+<input type="radio" class="radio" id="radioButton1" name="display" value="Medicinal" onchange="radioChange(value)">
+<label for="radiobutton1">Medicinal</label>
+
+<br>
+
+<input type="radio" class="radio" id="radioButton2" name="display" value="Recreational" onchange="radioChange(value)" checked>
+<label for="radiobutton2">Recreational</label>
+
+<body>
+
+<!-- <button type="button" onclick="buttonClicked()" id="myButton" class="myButton"> Medicinal vs. Recreational </button>-->
+
+<br>
+<br>
+
+<!--<input type="range" min="1933" max="2017" value="1" class="slider" id="mySlider" oninput="sliderMoved(value)">-->
+
+<div class="svgBox">
+<svg width="100%" height="100%" id="svg"></svg>
+
+</div>
+
+<div class="expText">
+
+    <p id="paragraph">
+        The history of Marijuana regulation in the United States presents a winding road, filled with side-steps and speed-bumps along the way.
+        <br>
+        <br>
+        The Era of Prohibition began in the 1920's, and shortly thereafter every State in the Union had ratified the Uniform State Narcotic Drug Act of 1933, which outlawed the cultivation, transportation and use of marijuana for any purposed, recreational or medicinal.
+        <br>
+        <br>
+        Over time, with changes to state demographics and ideologies, and the advancement of thought, many states began to regulate marijuana within their own borders, in direct violation of federal laws.
+        <br>
+        <br>
+        Though this falls within the purview of states rights, the Federal government has continued to wage its war on drugs. This interactive map shows how far states have come in regulating the controversial plant, and how far we have to go until we are on the same page as a Nation.
+    </p>
+
+</div>
+
+<div>
+    <div class ="useText">
+        <p id="introduction">
+            Use the buttons to toggle between Recreational and Medicinal laws.
+            <br>
+            <br>
+            Hover over the map to view state names and the years that medicinal and recreational laws were changed, respectively.
+            <br>
+        </p>
+    </div>
+</div>
+
+</body>
+
+<script src="./queue.min.js"></script>
+<script src="./index.js"></script>
+
+</html>

@@ -1,0 +1,50 @@
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    min-width: 100px;
+    max-width: 100%;
+    height: 50px;
+    padding: 10px;
+    font: 14px gainsboro;
+    background: lightGrey;
+    pointer-events: none;
+    border: 2px solid Green;
+    color: green;
+    font-weight: bold;
+}
+
+.expText {
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 1130px;
+    color: green;
+    background-color: lightGrey;
+    border: 2.5px solid Green;
+    padding: 5px;
+}
+
+.useText {
+    width: 465px;
+    height: 90px;
+    position: absolute;
+    top: 130px;
+    left: 505px;
+    color: green;
+    background-color: lightGrey;
+    border: 2.5px solid Green;
+    padding: 5px;
+    text-align: center;
+}
+.svgBox{
+    width:100vw;
+    height:100vh;
+}
+
+#title{
+    font-weight: bold;
+}
+
+
+
